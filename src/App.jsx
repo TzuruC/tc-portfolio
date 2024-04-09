@@ -1,4 +1,4 @@
 const App = () => {
-  return <div>App</div>;
+  return <div className="btn">App</div>;
 };
 export default App;

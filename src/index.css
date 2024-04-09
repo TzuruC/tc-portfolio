@@ -18,8 +18,13 @@
   --secondary: #bfbfbf;
   --secondary-shadow: #9b9b9b;
   --white: #f0f0f0;
+  --dark: #1f1e1d;
   --sans: "League Spartan", sans-serif;
   --noto-sans: "Noto Sans TC", sans-serif;
+
+  --text-20: 20px;
+  --text-22: 22px;
+  --text-18: 18px;
 
   font-family: var(--sans);
   font-weight: bold;
@@ -150,7 +155,7 @@ header {
   align-items: center;
   padding: 1rem;
   color: var(--header-text);
-  background-color: var(--primary);
+  background-color: var(--dark);
 }
 
 header span {
