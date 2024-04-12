@@ -10,7 +10,7 @@ $white: #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
+$gray-400: #bcbcbc !default; //gray
 $gray-500: #adb5bd !default;
 $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
@@ -298,9 +298,9 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary: #f9cd73 !default;
+$primary: #d6a43f !default;
 // $primary: $blue !default;
-$secondary: $gray-600 !default;
+$secondary: $gray-400 !default;
 $success: $green !default;
 $info: $cyan !default;
 $warning: $yellow !default;
@@ -415,19 +415,21 @@ $gradient: linear-gradient(
 $spacer: 1rem !default;
 $spacers: (
   0: 0,
-  1: 8px,
-  2: 16px,
-  3: 20px,
-  4: 28px,
-  5: 36px,
-  6: 40px,
-  7: 52px,
-  8: 120px,
+  1: 4px,
+  2: 8px,
+  3: 16px,
+  4: 20px,
+  5: 28px,
+  6: 36px,
+  7: 40px,
+  8: 52px,
+  9: 64px,
+  10: 120px,
   // 1: $spacer * 0.25,
   // 2: $spacer * 0.5,
   // 3: $spacer,
   // 4: $spacer * 1.5,
-  // 5: $spacer * 3,,,,,,,,,,,,,,,,,,,
+  // 5: $spacer * 3,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -664,7 +666,7 @@ $font-sizes: (
   // 3: $h3-font-size,
   // 4: $h4-font-size,
   // 5: $h5-font-size,
-  // 6: $h6-font-size,,,,,,,,,,,,,,,
+  // 6: $h6-font-size,,,,,,,,,,,,,,,,,,,,,,,
 ) !default;
 // scss-docs-end font-sizes
 

@@ -26,7 +26,7 @@
   --text-22: 22px;
   --text-18: 18px;
 
-  font-family: var(--sans);
+  font-family: var(--noto-sans);
   font-weight: bold;
   text-align: left;
   scroll-behavior: smooth;
@@ -44,7 +44,9 @@ main {
   align-items: center;
   padding: 3rem 1rem;
   background-color: var(--white);
-  margin-inline: 1rem;
+  background-image: url("./assets/bgdot.png");
+  background-size: contain;
+  background-position-x: center;
 }
 
 section {
@@ -65,20 +67,6 @@ h1 {
   line-height: 1;
   margin-bottom: 1rem;
   color: var(--headings);
-}
-
-h2 {
-  font-weight: bold;
-  font-family: var(--noto-sans);
-  margin-bottom: 1rem;
-  color: var(--headings);
-}
-
-h3 {
-  font-weight: 400;
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
-  color: var(--primary);
 }
 
 li {
@@ -108,16 +96,13 @@ img {
 /* UTILITY CLASSES */
 
 .btn {
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  color: var(--header-text);
-  background-color: var(--secondary);
-  box-shadow: 0 2px var(--secondary-shadow);
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: var(--secondary-shadow);
+  border-radius: 25px;
+  transition-duration: 0.3s;
+  &:hover {
+    color: $white;
+    border-color: #93cdcc;
+    background-color: #93cdcc;
+  }
 }
 
 .divider {
@@ -140,7 +125,6 @@ img {
 .body-text,
 .about p,
 .project p {
-  font-family: var(--sans);
   font-size: 0.75rem;
   line-height: 2;
   color: var(--body-text);
@@ -181,7 +165,9 @@ header button:hover {
 /* HERO SECTION */
 .hero {
   background-image: url("./assets/hero.png");
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
   h2 {
     color: #f9cd73;
   }
@@ -248,7 +234,6 @@ header button:hover {
 .project .content {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
   text-align: center;
 }
 
@@ -257,17 +242,8 @@ header button:hover {
   gap: 0.5rem;
 }
 
-.project .content ul li {
-  padding: 0.4rem 0.7rem;
-  border-radius: 10px;
-  font-size: 0.7rem;
-  color: var(--header-text);
-  background-color: var(--primary);
-  box-shadow: 0 1px var(--primary-shadow);
-}
-
 .project .content p {
-  margin-bottom: 1rem;
+  margin-bottom: 4px;
   font-size: 0.7rem;
   line-height: 1.5;
 }
@@ -309,7 +285,6 @@ footer {
   font-size: 0.75rem;
   color: var(--header-text);
   background-color: var(--primary);
-  margin-inline: 1rem;
 }
 
 .nav {
@@ -380,8 +355,7 @@ footer {
   /* FONT SIZES & SPACING */
 
   header,
-  main,
-  footer {
+  main {
     max-width: 992px;
     margin-inline: auto;
     padding-inline: 3rem;
