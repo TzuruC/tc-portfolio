@@ -8,11 +8,11 @@
 #React #vite #Bootstrap
 
 # 環境版本
-Node # v18  
-Npm # v9  
-Bootstrap # v5  
-React # v18  
-Vite # v5
+Node - v18  
+Npm - v9  
+Bootstrap - v5  
+React - v18  
+Vite - v5
 
 # 資料夾結構
 src # main.jsx, App.jsx, index.css, 以及 mockup.html 放置處  
