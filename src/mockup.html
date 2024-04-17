@@ -8,58 +8,71 @@
   <body>
     <div class="wrapper">
       <!-- Header -->
-      <header class="container pb-7">
-        <div class="logo px-3 pb-2 pt-6 fs-3 text-white bg-dark fw-bold">
+      <header
+        class="pb-4 container d-flex justify-content-between align-items-end"
+      >
+        <div
+          class="logo text-nowrap px-3 pb-2 pt-lg-6 pt-5 pe-lg-8 pe-8 fs-3 text-white bg-dark fw-bold"
+        >
           Tzuru Chen
         </div>
 
-        <button class="menu-btn" aria-label="Navigation Menu">
+        <button class="menu-btn mb-2 me-2" aria-label="Navigation Menu">
           <img src="./assets/open_menu.svg" alt="menu icon" />
         </button>
-        <nav class="nav pb-1">
-          <ul class="m-0 list-unstyled">
-            <li><a class="py-1 fs-5 fw-bold" href="">個人簡介</a></li>
-            <li><a class="py-1 fs-5 fw-bold" href="">代表作品</a></li>
+        <nav class="nav pb-2">
+          <ul class="m-0 p-0 li2t-unstyled">
+            <li><a class="py-2 fs-5 fw-bold" href="">個人簡介</a></li>
+            <li><a class="py-2 fs-5 fw-bold" href="">代表作品</a></li>
           </ul>
         </nav>
       </header>
       <!-- Hero -->
-      <section class="hero py-10">
-        <div class="container ps-10">
-          <h2 class="fs-7">陳姿如</h2>
+      <section class="hero py-lg-10 py-8">
+        <div class="container ps-lg-10 ps-7">
+          <h2 class="">陳姿如</h2>
           <h3 class="text-white">美編 | 網頁設計師 | 網頁前端工程師</h3>
         </div>
       </section>
-      <main>
+      <main class="container">
         <!-- About -->
         <section id="about" class="about">
-          <h2 class="mb-8 px-9 py-2 fs-2 border border-dark">個人簡介</h2>
+          <h2 class="mb-9 px-9 py-2 fs-2 border border-dark">個人簡介</h2>
+          <p>
+            從事網頁設計工作3年時間，先後在商務網站、形象網站公司執業負責切版、Banner設計、Layout
+            設計等工作。對網頁維護、網站上傳圖文限制、處理跑版錯誤等工作相當熟練。
+          </p>
         </section>
         <!-- Projects -->
         <section id="projects" class="projects">
-          <h2 class="mb-8 px-9 py-2 fs-2 border border-dark">代表作品</h2>
+          <h2 class="mb-9 px-9 py-2 fs-2 border border-dark">代表作品</h2>
           <div>
-            <article class="project">
+            <article class="project mb-9">
               <div class="image">
                 <img src="./assets/project1.png" alt="FitNee" />
               </div>
               <div class="content">
-                <h3 class="mb-2 fw-bold text-dark">FitNee 訓練助理</h3>
-                <ul class="m-0 mb-2 list-unstyled">
+                <h3 class="my-md-2 my-3 fw-bold text-dark">FitNee 訓練助理</h3>
+                <ul
+                  class="m-0 mb-2 list-unstyled d-flex justify-content-center justify-content-lg-start"
+                >
                   <li class="px-2 py-1 bg-primary text-white">#Bootstrap</li>
                   <li class="px-2 py-1 bg-primary text-white">#JavaScript</li>
                   <li class="px-2 py-1 bg-primary text-white">#API</li>
+                  <li class="px-2 py-1 bg-primary text-white">#檢索功能</li>
                 </ul>
-                <p>
+                <p class="my-md-2 mt-3 mb-4">
                   現代人重視健康，藉由健身習慣改善身體、心理健康的人越來越多，但市面上輔助健身的工具，選擇還是很少。<br />
-                  透過本專案，使用者可以自由創建、記錄自己的訓練，一方面也提供健身教練媒合平台，讓專案能發揮最大價值。
+                  透過本專案，使用者可以自由創建、記錄自己的訓練，與健身教練媒合平台結合，讓專案能發揮最大價值。
                 </p>
-                <div>
+                <div
+                  class="d-flex justify-content-center justify-content-lg-start"
+                >
                   <a
                     class="me-1 btn btn-outline-secondary"
                     href="https://tzuruc.github.io/fitnee-36/"
                     target="_blank"
-                    >Live Site</a
+                    >Demo Site</a
                   >
                   <a
                     class="me-1 btn btn-outline-secondary"
@@ -70,7 +83,7 @@
                 </div>
               </div>
             </article>
-            <article class="project">
+            <article class="project mb-9">
               <div class="image">
                 <img src="./assets/project2.png" alt="7tao" />
               </div>
@@ -103,16 +116,16 @@
                 </div>
               </div>
             </article>
-            <article class="project">
+            <article class="project mb-9">
               <div class="image">
                 <img src="./assets/project3.png" alt="SVG Animations" />
               </div>
               <div class="content">
                 <h3 class="mb-2 fw-bold text-dark">WOWOROOM 窩窩家居</h3>
                 <ul class="m-0 list-unstyled">
-                  <li class="px-2 py-1 bg-primary text-white">#React</li>
-                  <li class="px-2 py-1 bg-primary text-white">#Tailwind</li>
-                  <li class="px-2 py-1 bg-primary text-white">#TypeScript</li>
+                  <li class="px-2 py-1 bg-primary text-white">#JavaScript</li>
+                  <li class="px-2 py-1 bg-primary text-white">#購物車功能</li>
+                  <li class="px-2 py-1 bg-primary text-white">#C3.js</li>
                 </ul>
                 <p>
                   現代人重視健康，藉由健身習慣改善身體、心理健康的人越來越多，但市面上輔助健身的工具，選擇還是很少。
@@ -123,13 +136,13 @@
                 <div>
                   <a
                     class="me-1 btn btn-outline-secondary"
-                    href="#"
+                    href="https://tzuruc.github.io/w9-homework/"
                     target="_blank"
                     >Live Site</a
                   >
                   <a
                     class="me-1 btn btn-outline-secondary"
-                    href="#"
+                    href="https://github.com/TzuruC/w9-homework"
                     target="_blank"
                     >GitHub Repo</a
                   >
@@ -141,9 +154,14 @@
       </main>
       <!-- Footer -->
       <footer class="bg-dark">
-        <div class="container px-10 d-flex justify-content-between fw-bold">
+        <div
+          class="container px-lg-10 d-flex justify-content-between align-items-center flex-md-row flex-column fw-bold text-center text-md-start"
+        >
           <div>Copyright © Tzuru Chen 2024</div>
-          <div><a href="" class="m-4">LinkedIn</a><a href="">E-mail</a></div>
+          <div>
+            <a href="" class="m-4 d-block d-md-inline-block">LinkedIn</a
+            ><a href="" class="d-block d-md-inline-block">E-mail</a>
+          </div>
         </div>
       </footer>
     </div>
