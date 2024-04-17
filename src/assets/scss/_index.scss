@@ -115,9 +115,9 @@ img {
   border-radius: 25px;
   transition-duration: 0.3s;
   &:hover {
-    color: $white;
-    border-color: #93cdcc;
-    background-color: #93cdcc;
+    color: #cc9c3c;
+    border-color: #f0da8b;
+    background-color: #f0da8b;
   }
 }
 
@@ -180,13 +180,13 @@ header button:hover {
   background-position: bottom;
   h2 {
     color: #f9cd73;
-    font-size: 52px;
+    font-size: 42px;
     @include pad {
       font-size: 28px;
     }
   }
   h3 {
-    font-size: 28px;
+    font-size: 22px;
     @include pad {
       font-size: 20px;
     }
@@ -247,7 +247,6 @@ header button:hover {
   height: auto;
   margin-bottom: 0.5rem;
   aspect-ratio: 16/9;
-  border-radius: 4px;
   overflow: hidden;
 }
 
@@ -399,7 +398,11 @@ footer {
   }
 
   .about p {
+    max-width: 70%;
     margin-bottom: 2rem;
+    @include mobile {
+      max-width: 100%;
+    }
   }
 
   .project .content {
