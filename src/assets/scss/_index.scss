@@ -115,7 +115,7 @@ img {
   border-radius: 25px;
   transition-duration: 0.3s;
   &:hover {
-    color: #cc9c3c;
+    color: #a29870;
     border-color: #f0da8b;
     background-color: #f0da8b;
   }
@@ -174,7 +174,7 @@ header button:hover {
 
 /* HERO SECTION */
 .hero {
-  background-image: url("./assets/hero.png");
+  background-image: url("./src/assets/hero.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -303,7 +303,6 @@ header button:hover {
 /* FOOTER */
 
 footer {
-  padding-block: 1.5rem;
   font-size: 0.75rem;
   color: var(--header-text);
   background-color: var(--primary);
@@ -415,10 +414,6 @@ footer {
 
   .contact p {
     margin-bottom: 1rem;
-  }
-
-  footer {
-    padding-block: 3rem;
   }
 
   h1 {
