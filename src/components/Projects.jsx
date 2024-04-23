@@ -2,10 +2,45 @@ import fitNeeCover from "../assets/project1.png";
 import sevenTaoCover from "../assets/project2.png";
 import wowoRoomCover from "../assets/project3.png";
 
+const projectList = [
+  {
+    id: 1,
+    title: "FitNee 訓練助理",
+    tech: ["Bootstrap", "JavaScript", "API介接", "檢索功能"],
+    description:
+      "現代人重視健康，藉由健身習慣改善身體、心理健康的人越來越多，但市面上輔助健身的工具，選擇還是很少。<br />透過本專案，使用者可以自由創建、記錄自己的訓練，與健身教練媒合平台結合，讓專案能發揮最大價值。",
+    demoLink: "#",
+    githubLink: "#",
+    image: fitNeeCover,
+  },
+  {
+    id: 2,
+    title: "7TAO 活動訂票網",
+    tech: ["HTML", "Scss", "Bootstrap"],
+    description:
+      "This project was created for Treehouse's Front End Web Development TechDegree",
+    demoLink: "#",
+    githubLink: "#",
+    image: sevenTaoCover,
+  },
+  {
+    id: 3,
+    title: "SVG Animations",
+    tech: ["JavaScript", "購物車功能", "C3.js"],
+    description:
+      "I learnt to create SVG animations using CSS. I also got to implement more advanced CSS techniques like clip-path and keyframes. I had also struggled with media queries before, but this project really helped!",
+    demoLink: "#",
+    githubLink: "#",
+    image: wowoRoomCover,
+  },
+];
+
 export const Projects = () => {
   return (
     <section id="projects" className="projects">
-      <h2 className="mb-9 px-9 py-2 fs-2 border border-dark">代表作品</h2>
+      <h2 className="mb-lg-9 mb-6 px-9 py-2 fs-2 border border-dark">
+        代表作品
+      </h2>
       <div>
         <article className="project mb-9">
           <div className="image">
@@ -61,7 +96,7 @@ export const Projects = () => {
             <div className="d-flex justify-content-center justify-content-lg-start">
               <a
                 className="me-1 btn btn-outline-secondary"
-                href="https://tzuruc.github.io/css-w6-homework/"
+                href="https://tzuruc.github.io/7tao-practice/"
                 target="_blank"
               >
                 Live Site

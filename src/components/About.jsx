@@ -1,7 +1,7 @@
 export const About = () => {
   return (
     <section className="about">
-      <h2 id="about" className="mb-9 px-9 py-2 fs-2 border border-dark">
+      <h2 id="about" className="mb-lg-9 mb-6 px-9 py-2 fs-2 border border-dark">
         個人簡介
       </h2>
       <p className="">

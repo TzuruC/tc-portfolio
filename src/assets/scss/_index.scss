@@ -71,6 +71,10 @@ section {
   flex-direction: column;
   align-items: center;
   margin-bottom: 3.5rem;
+
+  @include mobile {
+    margin-bottom: 2rem;
+  }
 }
 
 section:last-of-type {
@@ -116,7 +120,7 @@ img {
   transition-duration: 0.3s;
   &:hover {
     color: #a29870;
-    border-color: #f0da8b;
+    border-color: #ffed68;
     background-color: #f0da8b;
   }
 }
@@ -311,18 +315,21 @@ footer {
 .nav {
   position: absolute;
   z-index: 50;
-  top: 40px; /* moved lower later */
-  left: 0;
   width: 100%;
   padding-block: 2rem;
   font-size: 2.5rem;
   transform: translateY(-120%);
   transition: transform 0.3s ease;
   font-family: var(--noto-sans);
+  @include bigPad {
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    background-color: $white;
+  }
 }
 
 .nav.open {
-  transform: translateX(0%);
+  transform: translateY(100%);
 }
 
 /* MEDIA QUERIES */
@@ -389,7 +396,6 @@ footer {
   section {
     width: 100%;
     max-width: 100%;
-    margin-bottom: 6.5rem;
   }
 
   .section-square {
