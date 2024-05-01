@@ -18,7 +18,7 @@ export const Header = () => {
         <img src={isOpen ? closeMenu : openMenu} alt="menu icon" />
       </button>
       <nav className={`nav ${isOpen ? "open" : ""}  pb-lg-2`}>
-        <ul className="m-lg-0 p-lg-0 list-unstyled d-block d-lg-inline-block">
+        <ul className="m-lg-0 p-lg-0 list-unstyled d-block d-lg-flex">
           <li>
             <a
               className="py-2 px-4 px-lg-0 fs-5 fw-bold  d-block d-lg-inline-block"

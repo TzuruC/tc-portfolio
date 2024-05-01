@@ -55,9 +55,9 @@ export const Projects = () => {
               <li className="px-2 py-1 bg-primary text-white">#檢索功能</li>
             </ul>
             <p className="my-md-2 mt-3 mb-4">
-              現代人重視健康，藉由健身習慣改善身體、心理健康的人越來越多，但市面上輔助健身的工具，選擇還是很少。
+              現代人重視健康，培養健身訓練習慣來改善身心健康的人越來越多，但用來幫助健身的工具，卻還是選擇很少。
               <br />
-              透過本專案，使用者可以自由創建、記錄自己的訓練，與健身教練媒合平台結合，讓專案能發揮最大價值。
+              本專案是健身教練媒合平台，除了檢視教練外，使用者也可以自由創建、記錄自己的訓練，對健身教練或是學生，都很好運用。
             </p>
             <div className="d-flex justify-content-center justify-content-lg-start">
               <a
@@ -89,9 +89,10 @@ export const Projects = () => {
               <li className="px-2 py-1 bg-primary text-white">#Bootstrap</li>
             </ul>
             <p className="my-md-2 mt-3 mb-4">
-              現代人重視健康，藉由健身習慣改善身體、心理健康的人越來越多，但市面上輔助健身的工具，選擇還是很少。
+              活動訂票網站上充滿著各式各樣、不同風格的活動圖片，一個以簡單的線條與矩形為風格基礎的網站視覺設計作為呈現的平台，能兼具特色也不會搶到活動的風采。
               <br />
-              所以我寫了這個專案，讓使用者可以自由創建、記錄自己的訓練，一方面也提供健身教練媒合，讓專案能發揮最大價值。
+              網站以 Bootstrap 5
+              框架製作，利用跑馬燈、旋轉的卡片來增加畫面的活潑。
             </p>
             <div className="d-flex justify-content-center justify-content-lg-start">
               <a
@@ -99,7 +100,7 @@ export const Projects = () => {
                 href="https://tzuruc.github.io/7tao-practice/"
                 target="_blank"
               >
-                Live Site
+                Demo Site
               </a>
               <a
                 className="me-1 btn btn-outline-secondary"
@@ -125,17 +126,18 @@ export const Projects = () => {
               <li className="px-2 py-1 bg-primary text-white">#C3.js</li>
             </ul>
             <p className="my-md-2 mt-3 mb-4">
-              現代人重視健康，藉由健身習慣改善身體、心理健康的人越來越多，但市面上輔助健身的工具，選擇還是很少。
+              以家居。
               <br />
-              所以我寫了這個專案，讓使用者可以自由創建、記錄自己的訓練，一方面也提供健身教練媒合，讓專案能發揮最大價值。
+              這個專案模擬介接 API來獲取後台的資料，利用 JavaScript
+              打造購物車功能，並使用 c3.js 套件來呈現簡單的數據分析圖。
             </p>
             <div className="d-flex justify-content-center justify-content-lg-start">
               <a
                 className="me-1 btn btn-outline-secondary"
-                href="https://tzuruc.github.io/w9-homework/"
+                href="https://tzuruc.github.io/woworoom-practice/"
                 target="_blank"
               >
-                Live Site
+                Demo Site
               </a>
               <a
                 className="me-1 btn btn-outline-secondary"
