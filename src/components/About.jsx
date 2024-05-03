@@ -1,6 +1,11 @@
 export const About = () => {
   return (
-    <section className="about">
+    <section
+      className="about"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay="200"
+    >
       <h2 id="about" className="mb-lg-9 mb-6 px-9 py-2 fs-2 border border-dark">
         個人簡介
       </h2>

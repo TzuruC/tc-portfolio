@@ -38,10 +38,14 @@ const projectList = [
 export const Projects = () => {
   return (
     <section id="projects" className="projects">
-      <h2 className="mb-lg-9 mb-6 px-9 py-2 fs-2 border border-dark">
+      <h2
+        className="mb-lg-9 mb-6 px-9 py-2 fs-2 border border-dark"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         代表作品
       </h2>
-      <div>
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
         <article className="project mb-9">
           <div className="image">
             <img src={fitNeeCover} alt="FitNee訓練助理" />
