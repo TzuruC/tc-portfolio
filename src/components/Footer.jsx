@@ -16,7 +16,6 @@ export const Footer = () => {
         <div>
           <a
             href="https://pda.104.com.tw/profile/share/8sNEPFrepmL2CfGGKJZBEZJW29VHZcJZ"
-            href="https://pda.104.com.tw/profile/share/8sXBiktVDYiY222jvN1tGuZzeY7Ut2ck"
             className="m-4 d-block d-md-inline-block"
             target="_block"
           >

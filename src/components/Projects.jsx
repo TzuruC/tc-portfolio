@@ -108,7 +108,7 @@ export const Projects = () => {
               </a>
               <a
                 className="me-1 btn btn-outline-secondary"
-                href="https://github.com/TzuruC/css-w6-homework"
+                href="https://github.com/TzuruC/7tao-practice"
                 target="_blank"
               >
                 GitHub Repo
@@ -130,9 +130,7 @@ export const Projects = () => {
               <li className="px-2 py-1 bg-primary text-white">#C3.js</li>
             </ul>
             <p className="my-md-2 mt-3 mb-4">
-              以家居。
-              <br />
-              這個專案模擬介接 API來獲取後台的資料，利用 JavaScript
+              以家具購物平台模擬介接 API來獲取後台的資料，利用 JavaScript
               打造購物車功能，並使用 c3.js 套件來呈現簡單的數據分析圖。
             </p>
             <div className="d-flex justify-content-center justify-content-lg-start">
@@ -145,7 +143,7 @@ export const Projects = () => {
               </a>
               <a
                 className="me-1 btn btn-outline-secondary"
-                href="https://github.com/TzuruC/w9-homework"
+                href="https://github.com/TzuruC/woworoom-practice"
                 target="_blank"
               >
                 GitHub Repo
