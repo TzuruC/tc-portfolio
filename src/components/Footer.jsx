@@ -1,25 +1,14 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import React from "react";
+import CopyToClipboard from "react-copy-to-clipboard";
 
 export const Footer = () => {
-  useEffect(() => {
-    const emailCopy = document.querySelector("#emailCopy");
-    if (emailCopy) {
-      emailCopy.addEventListener("click", (e) => {
-        e.preventDefault();
-        console.log(emailCopy.data);
-      });
-    }
-
-    return () => {
-      if (emailCopy) {
-        emailCopy.removeEventListener("click", (e) => {
-          e.preventDefault();
-          console.log(emailCopy.data);
-        });
-      }
-    };
-  }, []);
-
+  const [copied, setCopied] = useState(false);
+  const handleClick = (e) => {
+    e.preventDefault();
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
   return (
     <footer className="bg-dark">
       <div className="container px-lg-10 py-6 py-lg-4 d-flex justify-content-between align-items-center flex-md-row flex-column fw-bold text-center text-md-start">
@@ -27,19 +16,26 @@ export const Footer = () => {
         <div>
           <a
             href="https://pda.104.com.tw/profile/share/8sNEPFrepmL2CfGGKJZBEZJW29VHZcJZ"
+            href="https://pda.104.com.tw/profile/share/8sXBiktVDYiY222jvN1tGuZzeY7Ut2ck"
             className="m-4 d-block d-md-inline-block"
             target="_block"
           >
             104 簡歷
           </a>
-          <a
-            href=""
-            id="emailCopy"
-            className="d-block d-md-inline-block"
-            data-text="tzuruc@gmail.com"
+          <CopyToClipboard
+            text="tzuruc@gmail.com"
+            onCopy={() => setCopied(true)}
           >
-            E-mail
-          </a>
+            <a
+              href=""
+              id="emailCopy"
+              className="d-block d-md-inline-block cursor-pointer"
+              onClick={handleClick}
+            >
+              E-mail
+            </a>
+          </CopyToClipboard>
+          {copied ? <span style={{ color: "#D6A43F" }}>已複製!</span> : null}
         </div>
       </div>
     </footer>
