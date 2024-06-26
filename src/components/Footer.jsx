@@ -15,7 +15,7 @@ export const Footer = () => {
         <div>Copyright © Tzuru Chen 2024</div>
         <div>
           <a
-            href="https://pda.104.com.tw/profile/share/8sNEPFrepmL2CfGGKJZBEZJW29VHZcJZ"
+            href="https://pda.104.com.tw/profile/share/a4E7p3XL1eoD5ubkjpxuQmvjBoNo8J00"
             className="m-4 d-block d-md-inline-block"
             target="_block"
           >
